@@ -19,4 +19,11 @@
     </style>
 
     <style name="Theme.IslamiC40GSat" parent="Base.Theme.IslamiC40GSat" />
+
+    <style name="sebhaTextStyle">
+        <item name="font">@font/main_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
 </resources>
