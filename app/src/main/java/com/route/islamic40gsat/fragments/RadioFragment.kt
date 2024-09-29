@@ -14,11 +14,8 @@ class RadioFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_radio, container, false)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
+        return  inflater.inflate(
+            R.layout.fragment_radio,
+            container, false)
     }
 }
